@@ -1,0 +1,103 @@
+name: lipi
+description: "Bharat Script Transliteration App - SIH 2025 Problem #25155"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Camera & Image
+  camera: ^0.11.1
+  image_picker: ^1.1.2
+  image_cropper: ^8.0.2
+  image: ^4.5.3
+
+  # OCR
+  google_mlkit_text_recognition: ^0.15.0
+
+  # Networking
+  dio: ^5.7.0
+  connectivity_plus: ^6.1.4
+
+  # Database
+  sqflite: ^2.4.2
+  path_provider: ^2.1.5
+
+  # State Management
+  provider: ^6.1.2
+  get_it: ^8.0.3
+
+  # Translation
+  google_mlkit_translation: ^0.13.0
+  translator: ^1.0.0
+
+  # TTS
+  flutter_tts: ^4.2.1
+
+  # UI
+  google_fonts: ^6.2.1
+  shimmer: ^3.0.0
+  share_plus: ^10.1.4
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Utils
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mockito: ^5.4.5
+  build_runner: ^2.4.15
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/script_maps/
+    - assets/images/
+
+  fonts:
+    - family: NotoSansDevanagari
+      fonts:
+        - asset: assets/fonts/NotoSansDevanagari-Regular.ttf
+    - family: NotoSansBengali
+      fonts:
+        - asset: assets/fonts/NotoSansBengali-Regular.ttf
+    - family: NotoSansTamil
+      fonts:
+        - asset: assets/fonts/NotoSansTamil-Regular.ttf
+    - family: NotoSansTelugu
+      fonts:
+        - asset: assets/fonts/NotoSansTelugu-Regular.ttf
+    - family: NotoSansKannada
+      fonts:
+        - asset: assets/fonts/NotoSansKannada-Regular.ttf
+    - family: NotoSansMalayalam
+      fonts:
+        - asset: assets/fonts/NotoSansMalayalam-Regular.ttf
+    - family: NotoSansGujarati
+      fonts:
+        - asset: assets/fonts/NotoSansGujarati-Regular.ttf
+    - family: NotoSansGurmukhi
+      fonts:
+        - asset: assets/fonts/NotoSansGurmukhi-Regular.ttf
+    - family: NotoSansOriya
+      fonts:
+        - asset: assets/fonts/NotoSansOriya-Regular.ttf
+    - family: NotoNastaliqUrdu
+      fonts:
+        - asset: assets/fonts/NotoNastaliqUrdu-Regular.ttf
+    - family: NotoSansMeeteiMayek
+      fonts:
+        - asset: assets/fonts/NotoSansMeeteiMayek-Regular.ttf
